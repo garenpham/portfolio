@@ -8,7 +8,7 @@ type Props = {
 };
 
 const style = {
-	wrapper: `relative flex flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-[100svh] md:min-h-screen justify-center xl:space-y-0 mx-auto items-center`,
+	wrapper: `relative flex flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center`,
 	title: `absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl`,
 	container: `grid grid-cols-4 gap-5 md:pt-[6rem]`,
 };
