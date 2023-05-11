@@ -9,7 +9,7 @@ type Props = {
 };
 
 const style = {
-	wrapper: `h-[90vh] relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0`,
+	wrapper: `h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0`,
 	title: `absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl ml-4`,
 	projects: `relative w-full max-h-screen flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 pt-[2.4rem] md:pt-[2rem] scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80`,
 	project: `w-screen h-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-10 md:p-44`,
