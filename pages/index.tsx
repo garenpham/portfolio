@@ -50,6 +50,10 @@ export default function Home({
 					content="Created by Tan Minh Pham"
 				/>
 				<meta
+					property="og:image"
+					content="/contact.png"
+				/>
+				<meta
 					name="viewport"
 					content="width=device-width, initial-scale=1"
 				/>
