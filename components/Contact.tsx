@@ -12,7 +12,7 @@ type Inputs = {
 };
 
 const style = {
-	wrapper: `h-screen relative flex flex-col text-center md:text-left md:flex-row md:max-w-7xl justify-evenly mx-auto items-center`,
+	wrapper: `h-[100svh] md:h-screen relative flex flex-col text-center md:text-left md:flex-row md:max-w-7xl justify-evenly mx-auto items-center`,
 	title: `absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl ml-4`,
 	content: `flex flex-col space-y-6 md:space-y-10 mt-[4rem] md:mt-[2rem]`,
 	subtitle: `text-2xl md:text-4xl font-semibold text-center px-10`,
