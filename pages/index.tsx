@@ -25,12 +25,12 @@ type Props = {
 };
 
 const style = {
-	wrapper: `bg-[rgb(36,36,36)] text-white h-screen md:snap-y md:snap-mandatory overflow-y-scroll overflow-x-hidden z-0 md:scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scroll-smooth`,
+	wrapper: `bg-[rgb(3,20,33)] text-white h-screen md:snap-y md:snap-mandatory overflow-y-scroll overflow-x-hidden z-0 md:scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#0af71e]/80 scroll-smooth`,
 	start: `snap-start`,
 	center: `snap-center`,
 	footer: `sticky bottom-16 md:bottom-5 w-full cursor-pointer`,
 	img__container: `flex items-center justify-center`,
-	icon: `h-10 w-10 rounded-full filter opacity-20 hover:text-[#f7ab0a] hover:opacity-100 cursor-pointer`,
+	icon: `h-10 w-10 rounded-full filter opacity-20 hover:text-[#0af71e] hover:opacity-100 cursor-pointer`,
 };
 
 export default function Home({

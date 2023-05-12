@@ -7,7 +7,7 @@ const style = {
 	circle__first: `absolute border border-[#333333] rounded-full h-[200px] w-[200px] mt-52 animate-ping`,
 	circle__second: `absolute border border-[#333333] rounded-full h-[300px] w-[300px] mt-52 animate-ping`,
 	circle__third: `absolute border border-[#333333] rounded-full h-[500px] w-[500px] mt-52 animate-ping`,
-	circle__fourth: `rounded-full border border-[#F7AB0A] opacity-20 h-[440px] w-[440px] md:h-[650px] md:w-[650px] absolute mt-[18rem] md:mt-52 animate-pulse`,
+	circle__fourth: `rounded-full border border-[#0af71e] opacity-20 h-[440px] w-[440px] md:h-[650px] md:w-[650px] absolute mt-[18rem] md:mt-52 animate-pulse`,
 	circle__fifth: `absolute border border-[#333333] rounded-full h-[800px] w-[800px] mt-52 animate-ping`,
 };
 

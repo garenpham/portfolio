@@ -17,7 +17,7 @@ const style = {
 	subtitle__text: `text-3xl md:text-4xl mr-2`,
 	menu: `pt-2 md:pt-5`,
 	content: `z-20`,
-	btn: `px-2 md:px-6 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40`,
+	btn: `px-2 md:px-6 py-2 border border-[#082404] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#0af71e]/40 hover:text-[#0af71e]/40`,
 };
 
 function Hero({ pageInfo }: Props) {
@@ -44,7 +44,7 @@ function Hero({ pageInfo }: Props) {
 					I do&nbsp;
 					<span className={style.subtitle__text}>
 						{text}
-						<Cursor cursorColor="#F7AB0A" />
+						<Cursor cursorColor="#0af71e" />
 					</span>
 				</h2>
 				<div className={style.menu}>

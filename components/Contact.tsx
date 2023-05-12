@@ -16,15 +16,15 @@ const style = {
 	title: `absolute top-[10rem] md:top-24 uppercase tracking-[20px] text-gray-500 text-2xl ml-4`,
 	content: `flex flex-col space-y-6 md:space-y-10 mt-[8rem] md:mt-[2rem]`,
 	subtitle: `text-2xl md:text-4xl font-semibold text-center px-10`,
-	txt: `decoration-[#f7ab0a]/50 underline`,
+	txt: `decoration-[#0af71e]/50 underline`,
 	contact: `space-y-4 md:space-y-10`,
 	contact__container: `flex items-center space-x-2 md:space-x-5 justify-center`,
-	contact__icon: `text-[#f7ab0a] w-7 h-7 animate-pulse`,
+	contact__icon: `text-[#0af71e] w-7 h-7 animate-pulse`,
 	contact__detail: `text-lg md:text-2xl`,
 	form: `flex flex-col space-y-2 w-fit mx-auto`,
 	name: `flex space-x-2`,
-	input: `outline-none bg-slate-400/10 rounded-sm border-b px-4 py-4 md:px-6 md:py-4 border-[#242424] text-gray-500 placeholder-gray-500 transition-all focus:border-[#f7ab0a]/40 focus:text-[#f7ab0a]/40 hover:border-[#f7ab0a]/40`,
-	btn: `bg-[#f7ab0a] py-4 md:py-5 rounded-md text-black font-bold text-lg`,
+	input: `outline-none bg-slate-400/10 rounded-sm border-b px-4 py-4 md:px-6 md:py-4 border-[#242424] text-gray-500 placeholder-gray-500 transition-all focus:border-[#0af71e]/40 focus:text-[#0af71e]/40 hover:border-[#0af71e]/40`,
+	btn: `bg-[#0af71e] py-4 md:py-5 rounded-md text-black font-bold text-lg`,
 };
 
 function Contact({}: Props) {

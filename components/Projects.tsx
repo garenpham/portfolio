@@ -11,17 +11,17 @@ type Props = {
 const style = {
 	wrapper: `h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0`,
 	title: `absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl ml-4`,
-	projects: `relative w-full max-h-screen flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 pt-[2.4rem] md:pt-[2rem] scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80`,
+	projects: `relative w-full max-h-screen flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 pt-[2.4rem] md:pt-[2rem] scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#0af71e]/80`,
 	project: `w-screen h-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-10 md:p-44`,
 	img: `w-[240px] h-[134px] md:w-[440px] md:h-[290px]`,
-	slash: `w-full absolute top-[30%] bg-[#f7ab0a]/10 left-0 h-[500px] -skew-y-12`,
+	slash: `w-full absolute top-[30%] bg-[#0af71e]/10 left-0 h-[500px] -skew-y-12`,
 	casestudy__container: `space-y-4 md:space-y-10 px-0 md:px-10 max-w-6xl`,
 	casestudy__title: `text-2xl md:text-4xl font-semibold text-center`,
-	casestudy: `underline decoration-[#f7ab0a]/50`,
+	casestudy: `underline decoration-[#0af71e]/50`,
 	casestudy__description: `text-md md:text-lg text-center md:text-left`,
 	tech__container: `flex items-center space-x-2 justify-center`,
 	tech: `h-6 w-6 md:h-8 md:w-8`,
-	btn: `bg-[#f7ab0a] py-4 px-8 text-md md:py-5 md:px-10 md:text-lg rounded-md text-black font-bold`,
+	btn: `bg-[#0af71e] py-4 px-8 text-md md:py-5 md:px-10 md:text-lg rounded-md text-black font-bold`,
 };
 
 function Projects({ projects }: Props) {

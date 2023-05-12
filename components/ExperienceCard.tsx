@@ -9,10 +9,10 @@ type Props = {
 };
 
 const style = {
-	wrapper: `flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[340px] md:w-[600px] xl:w-[860px] mt-[5rem] md:mt-[6rem] snap-center bg-[#292929] p-10 md:hover:opacity-100 md:opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden`,
+	wrapper: `flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[340px] md:w-[600px] xl:w-[860px] mt-[5rem] md:mt-[6rem] snap-center bg-[rgb(4,25,41)] p-10 md:hover:opacity-100 md:opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden`,
 	img: `w-32 h-32 rounded-full xl:w-[140px] xl:h-[140px] object-cover object-center`,
 	container: `px-0 md:px-10`,
-	summary: `list-disc space-y-4 ml-2 md:ml-5 text-sm md:text-md h-[50vw] xl:h-[14vw] overflow-x-hidden overflow-y-scroll md:scrollbar-thin scrollbar-track-[#292929] scrollbar-thumb-[#f7ab0a]/80`,
+	summary: `list-disc space-y-4 ml-2 md:ml-5 text-sm md:text-lg h-[50vw] xl:h-[14vw] overflow-x-hidden overflow-y-scroll md:scrollbar-thin scrollbar-track-[rgb(3,20,33)] scrollbar-thumb-[#0af71e]/80`,
 	job: `text-sm md:text-4xl font-light`,
 	company: `font-bold text-sm md:text-2xl mt-1`,
 	tech: `flex space-x-2 my-2`,

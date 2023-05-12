@@ -12,7 +12,7 @@ const style = {
 	img: `-mb-20 md:mb-0 mt-[14rem] md:mt-[2rem] flex-shrink-0 w-[12rem] h-[12rem] rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]`,
 	container: `space-y-6 md:space-y-10 px-0 md:px-10 mt-[7rem]`,
 	subtitle: `text-4xl font-semibold`,
-	little: `underline decoration-[#f7ab0a]/50`,
+	little: `underline decoration-[#0af71e]/50`,
 	content: `text-base`,
 };
 
