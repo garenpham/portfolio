@@ -46,19 +46,32 @@ function Contact({}: Props) {
 				<div className={style.contact}>
 					<div className={style.contact__container}>
 						<PhoneIcon className={style.contact__icon} />
-						<p className={style.contact__detail}>+1 (236) 788 7217</p>
+						<a
+							href="tel:+12367887217"
+							target="_blank"
+							className={style.contact__detail}>
+							+1 (236) 788 7217
+						</a>
 					</div>
 
 					<div className={style.contact__container}>
 						<EnvelopeIcon className={style.contact__icon} />
-						<p className={style.contact__detail}>tanphamminh2002@gmail.com</p>
+						<a
+							href="mailto:tanphamminh2002@gmail.com"
+							target="_blank"
+							className={style.contact__detail}>
+							tanphamminh2002@gmail.com
+						</a>
 					</div>
 
 					<div className={style.contact__container}>
 						<MapPinIcon className={style.contact__icon} />
-						<p className={style.contact__detail}>
-							Vancouver, British Columbia, Canada
-						</p>
+						<a
+							href="https://goo.gl/maps/fDfPQhudD8hPTw4k6"
+							target="_blank"
+							className={style.contact__detail}>
+							Burnaby, British Columbia, Canada
+						</a>
 					</div>
 				</div>
 
