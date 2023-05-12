@@ -10,7 +10,7 @@ type Props = {
 };
 
 const style = {
-	wrapper: `h-screen flex flex-col space-y-8 items-ceter pt-[8rem] md:justify-center text-center overflow-hidden`,
+	wrapper: `h-fit md:h-screen flex flex-col space-y-8 items-ceter py-[8rem] md:py-0 md:justify-center text-center overflow-hidden`,
 	profileImg: `relative rounded-full mx-auto`,
 	title: `text-xs md:text-sm uppercase text-gray-500 pb-2 tracking-[12px]`,
 	subtitle: `text-2xl md:text-3xl font-semibold md:px-10`,
