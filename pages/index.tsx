@@ -51,7 +51,7 @@ export default function Home({
 				/>
 				<meta
 					property="og:image"
-					content="/contact.png"
+					content="/contact.jpg"
 				/>
 				<meta
 					name="viewport"
