@@ -23,7 +23,7 @@ function WorkExperience({ experiences }: Props) {
 			<h3 className={style.title}>Experience</h3>
 
 			<div className={style.container}>
-				{experiences.reverse().map((experience) => (
+				{experiences.map((experience) => (
 					<ExperienceCard
 						key={experience._id}
 						experience={experience}

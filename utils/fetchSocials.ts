@@ -3,7 +3,7 @@ import { sanityClient } from '@/lib/sanity';
 import { Social } from '@/typings';
 
 const query = groq`
-  *[_type == "social"]
+  *[_type == "social"] | order(title desc)
 `;
 
 export const fetchSocials = async () => {

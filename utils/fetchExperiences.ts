@@ -6,7 +6,7 @@ const query = groq`
   *[_type=='experience']{
     ...,
     technologies[]->
-  }
+  } | order(dateEnded desc)
 `;
 
 export const fetchExperiences = async () => {

@@ -22,7 +22,7 @@ function Header({ socials }: Props) {
 				transition={{ duration: 1.4 }}
 				className={style.icons}>
 				{/* Social Icons */}
-				{socials.reverse().map((social) => (
+				{socials.map((social) => (
 					<SocialIcon
 						key={social._id}
 						url={social.url}
